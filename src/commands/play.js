@@ -35,7 +35,7 @@ exports.execute = async(client, message, args) => {
           } else {
             message.channel.send(`:ok_hand: \`Queue/song has been finished, destroyed voice stream.\``)
             client.cache[message.guild.id].dispatcher.destroy()
-            client.cache[message.guild.id].queue = undefined
+            client.cache[message.guild.id].queue = []
           }
         })
       }
