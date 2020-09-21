@@ -1,0 +1,21 @@
+{
+  "name": "Carbon",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "yt-search": "^2.0.2",
+    "ytdl-core": "^2.1.7"
+  }
+}
